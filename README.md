@@ -5,7 +5,7 @@ Time series analysis of historical sea level records for every gauge along River
 Steps:
 - Wrote function to import and load 13 datasets, one for each tidal gauge
 - Defined interquartile range function
-- Performed data manipulation to create datetime columns
+- Performed manipulation to create datetime columns
 - Filtered dataframes for high tide and low tide, based on water level data
 - Calculated ratio for days with highest tide and days with lowest tide
 - Wrote function to generate boxplots showing water level distribution for each tidal gauge
