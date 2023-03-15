@@ -2,7 +2,7 @@
 
 Time series analysis of historical sea level records for every gauge along River Thames, 1911-1995.
 
-Steps:
+Methods:
 - Wrote function to import and load 13 datasets, one for each tidal gauge
 - Performed manipulation, cleaning, and merging to prepare datasets for analysis
 - Defined interquartile range function and used it to calculate summary statistics
