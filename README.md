@@ -6,7 +6,7 @@ Methods:
 - Wrote function to import and load 13 datasets, one for each tidal gauge
 - Performed manipulation, cleaning, and merging to prepare datasets for analysis
 - Defined interquartile range function and used it to calculate summary statistics
-- Calculated ratios based on highest tide levels and lowest tide levels
+- Calculated ratios based on high tide and low tide statistics
 - Wrote for loops to generate line plots displaying monthly average water levels (with confidence intervals) across all years for each gauge location 
 - Wrote for loops to generate boxplots and inspect water level distributions for each gauge location
 
