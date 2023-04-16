@@ -1,6 +1,6 @@
 # River Thames Tidal Variation
 
-Time series analysis of historical sea level records for every gauge along River Thames, 1911-1995. Using machine learning, an isolation forest model was used to identify anomalies in the water level data. Results were plotted using Bokeh.
+Time series analysis of historical sea level records for every gauge along River Thames, 1911-1995. Using machine learning, an isolation forest model was appleid to identify anomalies in the water level data. Results were plotted using Bokeh.
 
 
 Methods:
