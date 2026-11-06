@@ -16,14 +16,14 @@ Findings:
 - London Bridge swings about 5.7 m between tides: high water averages 3.3 m and low water −2.4 m (relative to Ordnance Datum Newlyn)
 - The records are far from even: London Bridge, Richmond, Southend and Tilbury cover most of the century, while All Hallows Pier has a single month and Shivering Sand a single year
 
-<p><img style="float: right ; margin: 5px 20px 5px 10px; width: 60%" src="https://github.com/MyreLab/thames-tidal-variation/blob/main/thames-tidal-anomalies-chart.png?raw=true"></p>
-
 Run it:
 ```bash
 pip install pandas scipy matplotlib seaborn scikit-learn bokeh jupyter
 jupyter notebook thames_water_levels_stats.ipynb
 ```
 The notebooks load the data straight from this repo's `datasets/` folder. Anomaly detection is in `thames_water_levels_isolation-forest.ipynb`.
+
+<p><img style="float: right ; margin: 5px 20px 5px 10px; width: 60%" src="https://github.com/MyreLab/thames-tidal-variation/blob/main/thames-tidal-anomalies-chart.png?raw=true"></p>
 
 Data sources:
 - [The British National Oceanography Centre](https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/b66afb2c-cd53-7de9-e053-6c86abc0d251)
