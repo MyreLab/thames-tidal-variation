@@ -3,6 +3,8 @@
 I lived in the UK for 7 years and never lost my soft spot for British history, especially the kind that comes as a dataset. This project was a chance to dig into a century of handwritten Thames tide records, digitised in 2022. This time series analysis covers historical sea level records for every gauge along the River Thames, 1911-1995. I used an isolation forest model to identify anomalies in the water level data and plotted the results with <code>Bokeh</code>.
 
 
+<p><img style="float: right ; margin: 5px 20px 5px 10px; width: 60%" src="https://github.com/MyreLab/thames-tidal-variation/blob/main/thames-tidal-anomalies-chart.png?raw=true"></p>
+
 Methods:
 - Built a reusable `tidal_stats()` function that loads each gauge's raw file, standardizes the schema (column selection, renaming, datetime and float casting), and derives year and month features
 - Applied it across 13 gauges (~650k readings) and merged the outputs into a single long-format dataset keyed by location, with a row-count check to confirm nothing was lost in the merge
@@ -22,8 +24,6 @@ pip install pandas scipy matplotlib seaborn scikit-learn bokeh jupyter
 jupyter notebook thames_water_levels_stats.ipynb
 ```
 The notebooks load the data straight from this repo's `datasets/` folder. Anomaly detection is in `thames_water_levels_isolation-forest.ipynb`.
-
-<p><img style="float: right ; margin: 5px 20px 5px 10px; width: 60%" src="https://github.com/MyreLab/thames-tidal-variation/blob/main/thames-tidal-anomalies-chart.png?raw=true"></p>
 
 Data sources:
 - [The British National Oceanography Centre](https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/b66afb2c-cd53-7de9-e053-6c86abc0d251)
